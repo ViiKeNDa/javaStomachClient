@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stomach</title>
+
+        <link rel="stylesheet" href="./style/header.css" />
+        <link rel="icon" href="./4.ico" sizes="any" />
+    </head>
+    <body>
+        <header>
+            <img src="./4.ico" alt="logo" height="30" width="30" />
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item write">
+                        <a href="./writePage.html">Записаться к врачу </a>
+                    </li>
+                    <li class="navigation__item login">
+                        <a href="./index.html"> Войти </a>
+                    </li>
+                    <li class="navigation__item registration">
+                        <a href="./Registration.html">Регистрация </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="name" href="./profile.html">Имя </a>
+                    </li>
+                    <li class="navigation__item logout">
+                        <a href="./index.html">Выйти </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main style="padding: 20px">
+            <h1>Запись к врачу</h1>
+
+            <form id="DoctorNameForm">
+                <div
+                    class="formDoctorName_div"
+                    style="display: flex; flex-direction: column; padding: 10px"
+                >
+                    <label for="username">Имя врача: </label>
+                    <select class="list__doctors"></select>
+
+                    <div
+                        class="form_div"
+                        style="
+                            display: flex;
+                            flex-direction: column;
+                            padding: 10px;
+                        "
+                    >
+                        <input type="submit" value="Записаться!" />
+                    </div>
+                </div>
+            </form>
+        </main>
+
+        <script src="./script/header.js"></script>
+        <script src="./script/write.js"></script>
+    </body>
+</html>

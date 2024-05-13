@@ -1,0 +1,22 @@
+html {
+    background-color: aquamarine;
+}
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navigation__item {
+    padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+a:hover {
+    font-size: 18px;
+}

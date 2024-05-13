@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Stomach</title>
+
+        <link rel="stylesheet" href="./style/header.css" />
+
+        <link rel="icon" href="./4.ico" sizes="any" />
+    </head>
+    <body>
+        <header>
+            <img src="./4.ico" alt="logo" height="30" width="30" />
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item write">
+                        <a href="./writePage.html">Записаться к врачу </a>
+                    </li>
+                    <li class="navigation__item login">
+                        <a href="./index.html"> Войти </a>
+                    </li>
+                    <li class="navigation__item registration">
+                        <a href="./Registration.html">Регистрация </a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="name" href="#">Имя </a>
+                    </li>
+                    <li class="navigation__item logout">
+                        <a href="#">Выйти </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main style="padding: 20px">
+            <h1>Регмстрация</h1>
+            <form id="myFormRegistration">
+                <div
+                    class="formRegistration_div"
+                    style="display: flex; flex-direction: column; padding: 10px"
+                >
+                    <label for="fio">Введите ФИО: </label>
+                    <input type="text" name="fio" id="fio" required />
+                </div>
+                <div
+                    class="formRegistration_div"
+                    style="display: flex; flex-direction: column; padding: 10px"
+                >
+                    <label for="username">Введите свой логин</label>
+                    <input type="text" name="username" id="username" required />
+                </div>
+                <div
+                    class="formRegistration_div"
+                    style="display: flex; flex-direction: column; padding: 10px"
+                >
+                    <label for="password">Придумайте пароль: </label>
+                    <input
+                        type="password"
+                        name="password"
+                        id="password"
+                        required
+                    />
+                </div>
+                <div
+                    class="formRegistration_div"
+                    style="display: flex; flex-direction: column; padding: 10px"
+                >
+                    <input type="submit" value="Зарегистрироваться" />
+                </div>
+            </form>
+        </main>
+
+        <script src="./script/header.js"></script>
+        <script src="./script/registration.js"></script>
+    </body>
+</html>

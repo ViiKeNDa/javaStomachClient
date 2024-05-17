@@ -20,6 +20,6 @@ document
             .then((response) => response.text())
             .then((text) => {
                 alert(text);
-                window.location.href = "../index .html";
+                location.reload();
             });
     });

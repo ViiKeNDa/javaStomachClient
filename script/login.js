@@ -21,7 +21,7 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
                 alert(token);
             } else {
                 localStorage.setItem("token", token);
-                window.location.href = "../writePage.html";
+                location.reload();
             }
         });
 });

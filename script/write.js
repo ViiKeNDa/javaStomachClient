@@ -34,6 +34,6 @@ document
                 },
             }
         ).then(() => {
-            window.location.href = "../profile.html";
+            location.reload();
         });
     });
